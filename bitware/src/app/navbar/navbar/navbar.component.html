@@ -1,0 +1,15 @@
+<mat-toolbar class="opacity">
+    <mat-toolbar-row>
+        <a class="separate" (click)="fnVistaC()" mat-button>Vista catálogo</a>
+        <a class="separate" (click)="fnVistaPerfil()" mat-button>Vista catálogo</a>
+
+        <div style="text-align: end;" class="col">
+
+            <mat-label matTooltip="" matTooltipPosition="right" class="btn btn-outline-success">SUPERUSUARIO
+            </mat-label>
+        </div>
+    </mat-toolbar-row>
+</mat-toolbar>
+<div class="container m-5">
+    <router-outlet></router-outlet>
+</div>

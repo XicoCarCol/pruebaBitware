@@ -1,0 +1,11 @@
+mat-card {
+    max-width: 300px;
+}
+
+.grids {
+    grid-column-gap: 5px;
+}
+
+.margen {
+    margin: 5px;
+}

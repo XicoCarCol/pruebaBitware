@@ -1,0 +1,18 @@
+<div class="container">
+    <div class="row grids">
+        <mat-card *ngFor="let pokemon of lsPokemons" class="mat-elevation-z8 margen">
+            <mat-card-title-group>
+                <mat-card-title >{{pokemon.name | uppercase}}</mat-card-title>
+                <mat-card-subtitle>Small</mat-card-subtitle>
+                <img mat-card-sm-image src="https://material.angular.io/assets/img/examples/shiba2.jpg">
+            </mat-card-title-group>
+            <mat-card-content>
+            </mat-card-content>
+            <mat-divider inset></mat-divider>
+            <mat-card-actions style="text-align: center;">
+                <button (click)="fnGetDetalle(pokemon.name)" class="col-md-8" mat-raised-button color="primary">Ver mas...</button>
+              </mat-card-actions>
+        </mat-card> 
+    </div>
+
+</div>

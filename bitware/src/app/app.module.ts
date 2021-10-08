@@ -24,6 +24,8 @@ import { NavbarComponent } from './navbar/navbar/navbar.component';
 import { VistaDetalleComponent } from './vistaDetalle/vista-detalle/vista-detalle.component';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatDividerModule } from '@angular/material/divider';
+import { MatChipsModule } from '@angular/material/chips';
+
 
 
 
@@ -57,7 +59,8 @@ import { MatDividerModule } from '@angular/material/divider';
     MatSnackBarModule,
     MatDialogModule,
     MatGridListModule,
-    MatDividerModule
+    MatDividerModule,
+    MatChipsModule
 
   ],
   providers: [],
